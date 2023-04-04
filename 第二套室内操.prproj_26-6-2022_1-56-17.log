@@ -1,0 +1,7 @@
+Exception Message: startIndex 不能大于字符串长度。
+参数名: startIndex
+Stack Trace:   在 System.String.Substring(Int32 startIndex, Int32 length)
+   在 VegasScripts.VegasCommon.GetImportMediaPath(String pathInImportedFile, List`1 mediaLocations)
+   在 VegasScripts.AEImporter.ReadChildren(XmlElement elt, MediaBin parent)
+   在 VegasScripts.AEImporter.Import(String fileName, Vegas vegas, Project project, LogCallback log, Action createUndoBlock, Action disposeUndoBlock)
+   在 VegasScripts.ProjectInterchangeImporter.HandleInvokedInternal(String openDialogName, String openDialogExt, String undoBlockName, IImporter importer)
