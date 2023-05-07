@@ -348,22 +348,10 @@ voice_parts:
     phoneme_overrides:
     - index: 1
       phoneme: en
-  - position: 4920
-    duration: 120
-    tone: 55
-    lyric: +
-    pitch:
-      data:
-      - {x: -40, y: 0, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
   - position: 5040
     duration: 240
     tone: 55
-    lyric: ki
+    lyric: wa
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -375,7 +363,7 @@ voice_parts:
   - position: 5280
     duration: 240
     tone: 53
-    lyric: wa
+    lyric: yi
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -385,7 +373,7 @@ voice_parts:
     phoneme_expressions: []
     phoneme_overrides: []
   - position: 5520
-    duration: 240
+    duration: 480
     tone: 55
     lyric: yi
     pitch:
@@ -399,7 +387,7 @@ voice_parts:
   - position: 6000
     duration: 240
     tone: 55
-    lyric: yi
+    lyric: nou
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -411,7 +399,7 @@ voice_parts:
   - position: 6240
     duration: 240
     tone: 53
-    lyric: no
+    lyric: ni
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -423,7 +411,7 @@ voice_parts:
   - position: 6480
     duration: 240
     tone: 55
-    lyric: ni
+    lyric: su
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -447,7 +435,7 @@ voice_parts:
   - position: 6960
     duration: 240
     tone: 57
-    lyric: su
+    lyric: me
     pitch:
       data:
       - {x: -40, y: 10, shape: io}
@@ -459,7 +447,7 @@ voice_parts:
   - position: 7200
     duration: 240
     tone: 53
-    lyric: me
+    lyric: na
     pitch:
       data:
       - {x: -40, y: 40, shape: io}
@@ -471,7 +459,7 @@ voice_parts:
   - position: 7440
     duration: 240
     tone: 50
-    lyric: na
+    lyric: yi
     pitch:
       data:
       - {x: -40, y: 30, shape: io}
@@ -627,7 +615,7 @@ voice_parts:
   - position: 12240
     duration: 360
     tone: 55
-    lyric: a
+    lyric: 教
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -639,7 +627,7 @@ voice_parts:
   - position: 12600
     duration: 120
     tone: 53
-    lyric: a
+    lyric: 改
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -651,7 +639,7 @@ voice_parts:
   - position: 12720
     duration: 360
     tone: 55
-    lyric: a
+    lyric: 教
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -663,7 +651,7 @@ voice_parts:
   - position: 13080
     duration: 120
     tone: 53
-    lyric: a
+    lyric: 改
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -675,7 +663,7 @@ voice_parts:
   - position: 13200
     duration: 240
     tone: 55
-    lyric: a
+    lyric: 教
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -687,7 +675,7 @@ voice_parts:
   - position: 13440
     duration: 240
     tone: 58
-    lyric: a
+    lyric: 改
     pitch:
       data:
       - {x: -40, y: -30, shape: io}
@@ -699,7 +687,7 @@ voice_parts:
   - position: 13680
     duration: 240
     tone: 60
-    lyric: a
+    lyric: 教
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -711,7 +699,7 @@ voice_parts:
   - position: 13920
     duration: 240
     tone: 62
-    lyric: a
+    lyric: 改
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -723,7 +711,7 @@ voice_parts:
   - position: 14160
     duration: 240
     tone: 60
-    lyric: a
+    lyric: 结
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -735,11 +723,11 @@ voice_parts:
   - position: 14400
     duration: 240
     tone: 58
-    lyric: a
+    lyric: +
     pitch:
       data:
-      - {x: -40, y: 20, shape: io}
-      - {x: 40, y: 0, shape: io}
+      - {x: -75, y: 20, shape: io}
+      - {x: 109.25926, y: 0, shape: io}
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
     phoneme_expressions: []
@@ -747,7 +735,7 @@ voice_parts:
   - position: 14640
     duration: 240
     tone: 55
-    lyric: a
+    lyric: 构
     pitch:
       data:
       - {x: -40, y: 30, shape: io}
@@ -759,7 +747,7 @@ voice_parts:
   - position: 14880
     duration: 240
     tone: 53
-    lyric: a
+    lyric: +
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -771,7 +759,7 @@ voice_parts:
   - position: 15120
     duration: 240
     tone: 55
-    lyric: a
+    lyric: 化
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -783,7 +771,7 @@ voice_parts:
   - position: 16080
     duration: 240
     tone: 62
-    lyric: a
+    lyric: 温
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -795,7 +783,7 @@ voice_parts:
   - position: 16800
     duration: 240
     tone: 55
-    lyric: a
+    lyric: 屌
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -807,7 +795,7 @@ voice_parts:
   - position: 17040
     duration: 240
     tone: 53
-    lyric: a
+    lyric: 温
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -819,7 +807,7 @@ voice_parts:
   - position: 17280
     duration: 240
     tone: 55
-    lyric: a
+    lyric: 宗
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -831,7 +819,7 @@ voice_parts:
   - position: 17520
     duration: 360
     tone: 55
-    lyric: a
+    lyric: 林
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -843,7 +831,7 @@ voice_parts:
   - position: 18000
     duration: 240
     tone: 53
-    lyric: a
+    lyric: 温
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -855,7 +843,7 @@ voice_parts:
   - position: 18240
     duration: 240
     tone: 55
-    lyric: a
+    lyric: 宗
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -867,7 +855,7 @@ voice_parts:
   - position: 18480
     duration: 360
     tone: 55
-    lyric: a
+    lyric: 林
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -879,7 +867,7 @@ voice_parts:
   - position: 18960
     duration: 240
     tone: 53
-    lyric: a
+    lyric: 温
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -891,7 +879,7 @@ voice_parts:
   - position: 19200
     duration: 240
     tone: 55
-    lyric: a
+    lyric: 宗
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -903,7 +891,7 @@ voice_parts:
   - position: 19440
     duration: 240
     tone: 55
-    lyric: a
+    lyric: 林
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -915,7 +903,7 @@ voice_parts:
   - position: 19680
     duration: 240
     tone: 58
-    lyric: a
+    lyric: 屌
     pitch:
       data:
       - {x: -40, y: -30, shape: io}
@@ -927,7 +915,7 @@ voice_parts:
   - position: 19920
     duration: 240
     tone: 62
-    lyric: a
+    lyric: 温
     pitch:
       data:
       - {x: -40, y: -40, shape: io}
@@ -939,7 +927,7 @@ voice_parts:
   - position: 20640
     duration: 240
     tone: 55
-    lyric: a
+    lyric: 屌
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -951,7 +939,7 @@ voice_parts:
   - position: 20880
     duration: 240
     tone: 53
-    lyric: a
+    lyric: 温
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -963,7 +951,7 @@ voice_parts:
   - position: 21120
     duration: 240
     tone: 55
-    lyric: a
+    lyric: 宗
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -973,12 +961,12 @@ voice_parts:
     phoneme_expressions: []
     phoneme_overrides: []
   - position: 21360
-    duration: 240
-    tone: 62
-    lyric: a
+    duration: 360
+    tone: 48
+    lyric: 林
     pitch:
       data:
-      - {x: -40, y: -70, shape: io}
+      - {x: -40, y: 70, shape: io}
       - {x: 40, y: 0, shape: io}
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
@@ -987,7 +975,7 @@ voice_parts:
   - position: 21840
     duration: 240
     tone: 53
-    lyric: a
+    lyric: 温
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -999,7 +987,7 @@ voice_parts:
   - position: 22080
     duration: 240
     tone: 55
-    lyric: a
+    lyric: 宗
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -1011,7 +999,7 @@ voice_parts:
   - position: 22320
     duration: 360
     tone: 55
-    lyric: a
+    lyric: 林
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -1023,7 +1011,7 @@ voice_parts:
   - position: 22800
     duration: 240
     tone: 53
-    lyric: a
+    lyric: 温
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -1035,7 +1023,7 @@ voice_parts:
   - position: 23040
     duration: 240
     tone: 55
-    lyric: a
+    lyric: 宗
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -1047,7 +1035,7 @@ voice_parts:
   - position: 23280
     duration: 240
     tone: 55
-    lyric: a
+    lyric: 林
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -1059,7 +1047,7 @@ voice_parts:
   - position: 23520
     duration: 240
     tone: 58
-    lyric: a
+    lyric: 屌
     pitch:
       data:
       - {x: -40, y: -30, shape: io}
@@ -1071,7 +1059,7 @@ voice_parts:
   - position: 23760
     duration: 240
     tone: 62
-    lyric: a
+    lyric: 温
     pitch:
       data:
       - {x: -40, y: -40, shape: io}
@@ -1083,7 +1071,7 @@ voice_parts:
   - position: 24480
     duration: 240
     tone: 55
-    lyric: a
+    lyric: 屌
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -1095,7 +1083,7 @@ voice_parts:
   - position: 24720
     duration: 240
     tone: 53
-    lyric: a
+    lyric: 温
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -1107,7 +1095,7 @@ voice_parts:
   - position: 24960
     duration: 240
     tone: 55
-    lyric: a
+    lyric: 宗
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -1119,7 +1107,7 @@ voice_parts:
   - position: 25200
     duration: 360
     tone: 55
-    lyric: a
+    lyric: 林
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -1131,7 +1119,7 @@ voice_parts:
   - position: 25680
     duration: 240
     tone: 53
-    lyric: a
+    lyric: 温
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -1143,7 +1131,7 @@ voice_parts:
   - position: 25920
     duration: 240
     tone: 55
-    lyric: a
+    lyric: 宗
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -1155,7 +1143,7 @@ voice_parts:
   - position: 26160
     duration: 360
     tone: 55
-    lyric: a
+    lyric: 林
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -1167,7 +1155,7 @@ voice_parts:
   - position: 26640
     duration: 240
     tone: 53
-    lyric: a
+    lyric: 温
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -1179,7 +1167,7 @@ voice_parts:
   - position: 26880
     duration: 240
     tone: 55
-    lyric: a
+    lyric: 宗
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -1191,7 +1179,7 @@ voice_parts:
   - position: 27120
     duration: 240
     tone: 55
-    lyric: a
+    lyric: 林
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -1203,7 +1191,7 @@ voice_parts:
   - position: 27360
     duration: 240
     tone: 58
-    lyric: a
+    lyric: 屌
     pitch:
       data:
       - {x: -40, y: -30, shape: io}
@@ -1215,7 +1203,7 @@ voice_parts:
   - position: 27600
     duration: 240
     tone: 62
-    lyric: a
+    lyric: 温
     pitch:
       data:
       - {x: -40, y: -40, shape: io}
@@ -1227,7 +1215,7 @@ voice_parts:
   - position: 28320
     duration: 240
     tone: 55
-    lyric: a
+    lyric: 屌
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -1239,7 +1227,7 @@ voice_parts:
   - position: 28560
     duration: 240
     tone: 53
-    lyric: a
+    lyric: 温
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -1251,7 +1239,7 @@ voice_parts:
   - position: 28800
     duration: 240
     tone: 55
-    lyric: a
+    lyric: 宗
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -1263,7 +1251,7 @@ voice_parts:
   - position: 29040
     duration: 360
     tone: 55
-    lyric: a
+    lyric: 林
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -1275,7 +1263,7 @@ voice_parts:
   - position: 29520
     duration: 240
     tone: 53
-    lyric: a
+    lyric: 温
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -1287,7 +1275,7 @@ voice_parts:
   - position: 29760
     duration: 240
     tone: 55
-    lyric: a
+    lyric: 宗
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -1299,7 +1287,7 @@ voice_parts:
   - position: 30000
     duration: 240
     tone: 58
-    lyric: a
+    lyric: 林
     pitch:
       data:
       - {x: -40, y: -30, shape: io}
@@ -1311,7 +1299,7 @@ voice_parts:
   - position: 30240
     duration: 240
     tone: 60
-    lyric: a
+    lyric: 温
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -1323,7 +1311,7 @@ voice_parts:
   - position: 30480
     duration: 240
     tone: 58
-    lyric: a
+    lyric: 屌
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -1335,7 +1323,7 @@ voice_parts:
   - position: 31440
     duration: 240
     tone: 50
-    lyric: a
+    lyric: 结
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -1347,7 +1335,7 @@ voice_parts:
   - position: 32160
     duration: 240
     tone: 55
-    lyric: a
+    lyric: 构
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -1359,7 +1347,7 @@ voice_parts:
   - position: 32400
     duration: 240
     tone: 53
-    lyric: a
+    lyric: 化
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -1632,6 +1620,18 @@ voice_parts:
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
     phoneme_expressions: []
     phoneme_overrides: []
+  - position: 43680
+    duration: 240
+    tone: 46
+    lyric: a
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
   - position: 44400
     duration: 480
     tone: 48
@@ -1899,7 +1899,7 @@ voice_parts:
   - position: 54480
     duration: 240
     tone: 50
-    lyric: a
+    lyric: 教
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -1911,7 +1911,7 @@ voice_parts:
   - position: 54960
     duration: 240
     tone: 50
-    lyric: a
+    lyric: 改
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -1923,7 +1923,7 @@ voice_parts:
   - position: 55200
     duration: 240
     tone: 55
-    lyric: a
+    lyric: 教
     pitch:
       data:
       - {x: -40, y: -50, shape: io}
@@ -1935,7 +1935,7 @@ voice_parts:
   - position: 55440
     duration: 240
     tone: 53
-    lyric: a
+    lyric: 改
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -1947,7 +1947,7 @@ voice_parts:
   - position: 56160
     duration: 240
     tone: 53
-    lyric: a
+    lyric: 陆
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -1959,7 +1959,7 @@ voice_parts:
   - position: 56400
     duration: 240
     tone: 55
-    lyric: a
+    lyric: 港
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -1971,7 +1971,7 @@ voice_parts:
   - position: 56640
     duration: 240
     tone: 55
-    lyric: a
+    lyric: 的
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -1983,7 +1983,7 @@ voice_parts:
   - position: 56880
     duration: 240
     tone: 55
-    lyric: a
+    lyric: 结
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -1995,7 +1995,7 @@ voice_parts:
   - position: 57120
     duration: 240
     tone: 58
-    lyric: a
+    lyric: 构
     pitch:
       data:
       - {x: -40, y: -30, shape: io}
@@ -2007,7 +2007,7 @@ voice_parts:
   - position: 57360
     duration: 240
     tone: 62
-    lyric: a
+    lyric: 化
     pitch:
       data:
       - {x: -40, y: -40, shape: io}
@@ -2328,18 +2328,6 @@ voice_parts:
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 66360
-    duration: 120
-    tone: 55
-    lyric: a
-    pitch:
-      data:
-      - {x: -40, y: 0, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
   - position: 66480
     duration: 240
     tone: 55
@@ -2365,7 +2353,7 @@ voice_parts:
     phoneme_expressions: []
     phoneme_overrides: []
   - position: 66960
-    duration: 240
+    duration: 360
     tone: 55
     lyric: a
     pitch:
