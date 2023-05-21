@@ -196,6 +196,11 @@ tracks:
   mute: false
   solo: false
   volume: 0
+- phonemizer: OpenUtau.Core.DefaultPhonemizer
+  renderer_settings: {}
+  mute: false
+  solo: false
+  volume: -15.428571428571429
 voice_parts:
 - name: New Part
   comment: ""
@@ -1620,20 +1625,8 @@ voice_parts:
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 43680
-    duration: 240
-    tone: 55
-    lyric: a
-    pitch:
-      data:
-      - {x: -40, y: 0, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
   - position: 44400
-    duration: 480
+    duration: 240
     tone: 57
     lyric: a
     pitch:
@@ -1650,7 +1643,7 @@ voice_parts:
     lyric: a
     pitch:
       data:
-      - {x: -40, y: -20, shape: io}
+      - {x: -40, y: 0, shape: io}
       - {x: 40, y: 0, shape: io}
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
@@ -2173,7 +2166,7 @@ voice_parts:
     phoneme_expressions: []
     phoneme_overrides: []
   - position: 61680
-    duration: 480
+    duration: 465
     tone: 64
     lyric: a
     pitch:
@@ -2187,10 +2180,10 @@ voice_parts:
   - position: 62160
     duration: 240
     tone: 71
-    lyric: a
+    lyric: sou
     pitch:
       data:
-      - {x: -40, y: -70, shape: io}
+      - {x: -40, y: 0, shape: io}
       - {x: 40, y: 0, shape: io}
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
@@ -2199,7 +2192,7 @@ voice_parts:
   - position: 62520
     duration: 120
     tone: 64
-    lyric: a
+    lyric: tou
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -2211,7 +2204,7 @@ voice_parts:
   - position: 62640
     duration: 240
     tone: 64
-    lyric: a
+    lyric: dei
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -2223,7 +2216,7 @@ voice_parts:
   - position: 63000
     duration: 120
     tone: 62
-    lyric: a
+    lyric: ta
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -2235,7 +2228,7 @@ voice_parts:
   - position: 63120
     duration: 240
     tone: 62
-    lyric: a
+    lyric: shun
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -2247,7 +2240,7 @@ voice_parts:
   - position: 63360
     duration: 240
     tone: 64
-    lyric: a
+    lyric: en
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -2259,7 +2252,7 @@ voice_parts:
   - position: 63600
     duration: 240
     tone: 64
-    lyric: a
+    lyric: kan
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -2267,7 +2260,10 @@ voice_parts:
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
     phoneme_expressions: []
-    phoneme_overrides: []
+    phoneme_overrides:
+    - index: 1
+      offset: 24
+      overlap_delta: 18.518518
   - position: 64080
     duration: 240
     tone: 64
@@ -3255,7 +3251,7 @@ voice_parts:
   - position: 91920
     duration: 240
     tone: 67
-    lyric: a
+    lyric: 刘
     pitch:
       data:
       - {x: -40, y: -30, shape: io}
@@ -3263,11 +3259,15 @@ voice_parts:
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
     phoneme_expressions: []
-    phoneme_overrides: []
+    phoneme_overrides:
+    - index: 1
+      offset: 26
+    - index: 0
+      offset: 28
   - position: 92160
     duration: 240
     tone: 69
-    lyric: a
+    lyric: 禅
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -3275,15 +3275,19 @@ voice_parts:
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
     phoneme_expressions: []
-    phoneme_overrides: []
+    phoneme_overrides:
+    - index: 1
+      offset: 44
+    - index: 0
+      offset: 59
   - position: 92400
     duration: 360
     tone: 67
-    lyric: a
+    lyric: +
     pitch:
       data:
-      - {x: -40, y: 20, shape: io}
-      - {x: 40, y: 0, shape: io}
+      - {x: -181.48148, y: 20, shape: io}
+      - {x: 219.44444, y: 0, shape: io}
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
     phoneme_expressions: []
@@ -5124,5 +5128,16 @@ voice_parts:
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
     phoneme_expressions: []
     phoneme_overrides: []
-  curves: []
-wave_parts: []
+  curves:
+  - xs: []
+    ys: []
+    abbr: pitd
+wave_parts:
+- name: 强风大背头.wav
+  comment: ""
+  track_no: 1
+  position: 102
+  relative_path: ..\..\pr素材\MP3\原曲\强风大背头.wav
+  file_duration_ms: 136486.8934
+  skip_ms: 0
+  trim_ms: 0
