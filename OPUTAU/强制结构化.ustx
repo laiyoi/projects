@@ -193,14 +193,18 @@ tracks:
   phonemizer: OpenUtau.Core.DiffSinger.DiffSingerRhythmizerPhonemizer
   renderer_settings:
     renderer: DIFFSINGER
+  track_name: New Track
   mute: false
   solo: false
   volume: 0
+  pan: 0
 - phonemizer: OpenUtau.Core.DefaultPhonemizer
   renderer_settings: {}
-  mute: false
+  track_name: New Track
+  mute: true
   solo: false
   volume: -15.428571428571429
+  pan: 0
 voice_parts:
 - name: New Part
   comment: ""
@@ -306,7 +310,7 @@ voice_parts:
   - position: 2880
     duration: 240
     tone: 67
-    lyric: 失
+    lyric: 开
     pitch:
       data:
       - {x: -40, y: -30, shape: io}
@@ -318,7 +322,7 @@ voice_parts:
   - position: 3360
     duration: 240
     tone: 71
-    lyric: 败
+    lyric: 始
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -342,7 +346,7 @@ voice_parts:
   - position: 4560
     duration: 240
     tone: 64
-    lyric: wa
+    lyric: 七
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -352,11 +356,11 @@ voice_parts:
     phoneme_expressions: []
     phoneme_overrides:
     - index: 1
-      phoneme: en
+      phoneme: i
   - position: 5040
     duration: 240
     tone: 64
-    lyric: wa
+    lyric: 十
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -368,7 +372,7 @@ voice_parts:
   - position: 5280
     duration: 240
     tone: 62
-    lyric: yi
+    lyric: 七
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -380,7 +384,7 @@ voice_parts:
   - position: 5520
     duration: 480
     tone: 64
-    lyric: yi
+    lyric: 中
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -392,7 +396,7 @@ voice_parts:
   - position: 6000
     duration: 240
     tone: 64
-    lyric: nou
+    lyric: 成
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -404,7 +408,7 @@ voice_parts:
   - position: 6240
     duration: 240
     tone: 62
-    lyric: ni
+    lyric: 了
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -416,7 +420,7 @@ voice_parts:
   - position: 6480
     duration: 240
     tone: 64
-    lyric: su
+    lyric: 陆
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -428,7 +432,7 @@ voice_parts:
   - position: 6720
     duration: 240
     tone: 67
-    lyric: su
+    lyric: 港
     pitch:
       data:
       - {x: -40, y: -30, shape: io}
@@ -440,7 +444,7 @@ voice_parts:
   - position: 6960
     duration: 240
     tone: 66
-    lyric: mei
+    lyric: 的
     pitch:
       data:
       - {x: -40, y: 10, shape: io}
@@ -452,7 +456,7 @@ voice_parts:
   - position: 7200
     duration: 240
     tone: 62
-    lyric: na
+    lyric: 分
     pitch:
       data:
       - {x: -40, y: 40, shape: io}
@@ -464,7 +468,7 @@ voice_parts:
   - position: 7440
     duration: 240
     tone: 59
-    lyric: yi
+    lyric: 校
     pitch:
       data:
       - {x: -40, y: 30, shape: io}
@@ -2012,7 +2016,7 @@ voice_parts:
   - position: 58320
     duration: 240
     tone: 69
-    lyric: a
+    lyric: 怕
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -2024,7 +2028,7 @@ voice_parts:
   - position: 58560
     duration: 240
     tone: 67
-    lyric: a
+    lyric: 头
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -2036,7 +2040,7 @@ voice_parts:
   - position: 58800
     duration: 240
     tone: 69
-    lyric: a
+    lyric: 怕
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -2048,7 +2052,7 @@ voice_parts:
   - position: 59040
     duration: 240
     tone: 67
-    lyric: a
+    lyric: 头
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -2060,7 +2064,7 @@ voice_parts:
   - position: 59280
     duration: 240
     tone: 69
-    lyric: a
+    lyric: 怕
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -2072,7 +2076,7 @@ voice_parts:
   - position: 59520
     duration: 240
     tone: 67
-    lyric: a
+    lyric: 头
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -2084,7 +2088,7 @@ voice_parts:
   - position: 59760
     duration: 240
     tone: 69
-    lyric: a
+    lyric: 怕
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -2096,7 +2100,7 @@ voice_parts:
   - position: 60000
     duration: 240
     tone: 67
-    lyric: a
+    lyric: 头
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -2108,7 +2112,7 @@ voice_parts:
   - position: 60240
     duration: 240
     tone: 64
-    lyric: a
+    lyric: 大
     pitch:
       data:
       - {x: -40, y: 30, shape: io}
@@ -2120,7 +2124,7 @@ voice_parts:
   - position: 60480
     duration: 240
     tone: 67
-    lyric: a
+    lyric: +
     pitch:
       data:
       - {x: -40, y: -30, shape: io}
@@ -2132,7 +2136,7 @@ voice_parts:
   - position: 60720
     duration: 240
     tone: 64
-    lyric: a
+    lyric: 乱
     pitch:
       data:
       - {x: -40, y: 30, shape: io}
@@ -2144,7 +2148,7 @@ voice_parts:
   - position: 60960
     duration: 240
     tone: 62
-    lyric: a
+    lyric: +
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -2156,7 +2160,7 @@ voice_parts:
   - position: 61200
     duration: 240
     tone: 64
-    lyric: a
+    lyric: 斗
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
