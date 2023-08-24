@@ -1646,7 +1646,7 @@ voice_parts:
   - position: 44880
     duration: 240
     tone: 59
-    lyric: a
+    lyric: 勾
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -1658,7 +1658,7 @@ voice_parts:
   - position: 45120
     duration: 240
     tone: 59
-    lyric: a
+    lyric: 芡
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -1670,7 +1670,7 @@ voice_parts:
   - position: 45360
     duration: 240
     tone: 59
-    lyric: a
+    lyric: 结
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -1682,7 +1682,7 @@ voice_parts:
   - position: 45600
     duration: 240
     tone: 57
-    lyric: a
+    lyric: 构
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -1694,7 +1694,7 @@ voice_parts:
   - position: 45840
     duration: 240
     tone: 55
-    lyric: a
+    lyric: 化
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -1706,7 +1706,7 @@ voice_parts:
   - position: 46800
     duration: 240
     tone: 59
-    lyric: a
+    lyric: 结
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -1718,7 +1718,7 @@ voice_parts:
   - position: 47520
     duration: 240
     tone: 64
-    lyric: a
+    lyric: 构
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -1730,7 +1730,7 @@ voice_parts:
   - position: 47760
     duration: 240
     tone: 62
-    lyric: a
+    lyric: 化
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -1742,7 +1742,7 @@ voice_parts:
   - position: 48480
     duration: 240
     tone: 57
-    lyric: a
+    lyric: 去
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -1754,7 +1754,7 @@ voice_parts:
   - position: 48720
     duration: 240
     tone: 59
-    lyric: a
+    lyric: 落
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -1766,7 +1766,7 @@ voice_parts:
   - position: 48960
     duration: 240
     tone: 59
-    lyric: a
+    lyric: 实
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -1778,7 +1778,7 @@ voice_parts:
   - position: 49200
     duration: 240
     tone: 59
-    lyric: a
+    lyric: 结
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -1790,7 +1790,7 @@ voice_parts:
   - position: 49440
     duration: 240
     tone: 57
-    lyric: a
+    lyric: 构
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -1802,7 +1802,7 @@ voice_parts:
   - position: 49680
     duration: 240
     tone: 55
-    lyric: a
+    lyric: 图
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
