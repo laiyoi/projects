@@ -1423,7 +1423,7 @@ voice_parts:
   - position: 26160
     duration: 240
     tone: 48
-    lyric: 对
+    lyric: 接
     pitch:
       data:
       - {x: -40, y: 30, shape: io}
