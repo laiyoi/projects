@@ -2392,7 +2392,7 @@ voice_parts:
       offset: 121
     - index: 0
       offset: 81
-      overlap_delta: -63.82979
+      overlap_delta: 7.0921984
   - position: 59520
     duration: 240
     tone: 65
