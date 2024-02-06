@@ -191,6 +191,17 @@ expressions:
     default_value: 100
     is_flag: false
     flag: ""
+  dir:
+    name: direct
+    abbr: dir
+    type: Options
+    min: 0
+    max: 1
+    default_value: 0
+    is_flag: false
+    options:
+    - off
+    - on
 exp_selectors:
 - dyn
 - pitd
