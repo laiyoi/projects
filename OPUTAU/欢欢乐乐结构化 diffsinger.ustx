@@ -725,26 +725,38 @@ voice_parts:
     pitch:
       data:
       - {x: -161.34752, y: 20, shape: io}
-      - {x: 40, y: 0, shape: io}
+      - {x: 24.822695, y: 0, shape: io}
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 0, out: 0, shift: 0, drift: 0, vol_link: 0}
     phoneme_expressions:
     - {index: 0, abbr: vel, value: 121}
     - {index: 1, abbr: vel, value: 131}
-    phoneme_overrides: []
+    phoneme_overrides:
+    - index: 1
+      offset: 47
+      overlap_delta: 1.7730496
+    - index: 0
+      offset: 37
   - position: 11040
     duration: 240
     tone: 51
     lyric: gan
     pitch:
       data:
-      - {x: -174.64539, y: 50, shape: io}
+      - {x: -111.702126, y: 50, shape: io}
+      - {x: 32.80142, y: -0.45454547, shape: io}
       - {x: 109.04256, y: 0, shape: io}
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 0, out: 0, shift: 0, drift: 0, vol_link: 0}
     phoneme_expressions:
     - {index: 1, abbr: vel, value: 116}
-    phoneme_overrides: []
+    phoneme_overrides:
+    - index: 0
+      offset: 16
+      overlap_delta: 8.865249
+    - index: 1
+      offset: 13
+      overlap_delta: 0.8865248
   - position: 11280
     duration: 240
     tone: 56
@@ -757,7 +769,9 @@ voice_parts:
     vibrato: {length: 0, period: 175, depth: 25, in: 0, out: 0, shift: 0, drift: 0, vol_link: 0}
     phoneme_expressions:
     - {index: 1, abbr: vel, value: 113}
-    phoneme_overrides: []
+    phoneme_overrides:
+    - index: 0
+      offset: 26
   - position: 11520
     duration: 240
     tone: 58
@@ -1027,13 +1041,15 @@ voice_parts:
     phoneme_overrides:
     - index: 1
       offset: 27
+    - index: 0
+      offset: 17
   - position: 17280
     duration: 240
     tone: 56
     lyric: chuan
     pitch:
       data:
-      - {x: -6.2056737, y: -40, shape: io}
+      - {x: -73.58156, y: -40, shape: io}
       - {x: -1.7730496, y: 0, shape: io}
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 0, out: 0, shift: 0, drift: 0, vol_link: 0}
@@ -1041,13 +1057,15 @@ voice_parts:
     phoneme_overrides:
     - index: 0
       offset: 80
+    - index: 1
+      offset: 17
   - position: 17520
     duration: 240
     tone: 54
     lyric: tong
     pitch:
       data:
-      - {x: -174.64539, y: 20, shape: io}
+      - {x: -150.70921, y: 20, shape: io}
       - {x: 40, y: 0, shape: io}
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 0, out: 0, shift: 0, drift: 0, vol_link: 0}
@@ -1196,7 +1214,11 @@ voice_parts:
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 0, out: 0, shift: 0, drift: 0, vol_link: 0}
     phoneme_expressions: []
-    phoneme_overrides: []
+    phoneme_overrides:
+    - index: 1
+      offset: 17
+    - index: 0
+      offset: 50
   - position: 21120
     duration: 240
     tone: 56
@@ -1492,7 +1514,9 @@ voice_parts:
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 0, out: 0, shift: 0, drift: 0, vol_link: 0}
     phoneme_expressions: []
-    phoneme_overrides: []
+    phoneme_overrides:
+    - index: 1
+      offset: 15
   - position: 27120
     duration: 240
     tone: 53
@@ -1841,7 +1865,7 @@ voice_parts:
     - index: 0
       offset: 69
   - position: 37200
-    duration: 270
+    duration: 300
     tone: 60
     lyric: zhang
     pitch:
@@ -1851,7 +1875,10 @@ voice_parts:
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 0, out: 0, shift: 0, drift: 0, vol_link: 0}
     phoneme_expressions: []
-    phoneme_overrides: []
+    phoneme_overrides:
+    - index: 1
+      offset: 12
+      overlap_delta: 31.028368
   - position: 37920
     duration: 270
     tone: 51
@@ -3023,7 +3050,7 @@ voice_parts:
     lyric: +
     pitch:
       data:
-      - {x: -69.14893, y: -100, shape: io}
+      - {x: -66.489365, y: -100, shape: io}
       - {x: 40, y: 0, shape: io}
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 0, out: 0, shift: 0, drift: 0, vol_link: 0}
@@ -3040,7 +3067,11 @@ voice_parts:
       snap_first: true
     vibrato: {length: 75.833336, period: 176.41844, depth: 15.909004, in: 6.4814816, out: 0, shift: 0, drift: 0, vol_link: 0}
     phoneme_expressions: []
-    phoneme_overrides: []
+    phoneme_overrides:
+    - index: 0
+      offset: 192
+    - index: 1
+      offset: 43
   - position: 74880
     duration: 480
     tone: 65
@@ -3310,14 +3341,99 @@ voice_parts:
     - 13005
     - 13015
     - 13020
-    - 13030
-    - 13035
-    - 13105
+    - 13025
     - 13110
+    - 13125
+    - 13130
+    - 13140
+    - 13150
+    - 13160
+    - 13165
+    - 13175
+    - 13185
+    - 13195
+    - 13205
+    - 13210
+    - 13230
+    - 13235
+    - 13240
     - 13310
     - 13315
     - 13320
     - 13325
+    - 20695
+    - 20700
+    - 20705
+    - 20710
+    - 20720
+    - 20725
+    - 20730
+    - 20735
+    - 20740
+    - 20755
+    - 20760
+    - 20765
+    - 20790
+    - 20795
+    - 20800
+    - 20805
+    - 20810
+    - 20815
+    - 20825
+    - 20840
+    - 20845
+    - 20860
+    - 20865
+    - 20870
+    - 20875
+    - 20890
+    - 20895
+    - 20905
+    - 20910
+    - 20915
+    - 20925
+    - 20930
+    - 20940
+    - 20945
+    - 20955
+    - 20965
+    - 37205
+    - 37210
+    - 37230
+    - 37235
+    - 37240
+    - 37245
+    - 37265
+    - 37270
+    - 37280
+    - 37290
+    - 37295
+    - 37305
+    - 37310
+    - 37355
+    - 37375
+    - 37380
+    - 37390
+    - 37395
+    - 37400
+    - 37405
+    - 37410
+    - 37430
+    - 37435
+    - 37445
+    - 37450
+    - 37465
+    - 37475
+    - 37480
+    - 37485
+    - 37490
+    - 37495
+    - 37500
+    - 37505
+    - 37510
+    - 37520
+    - 37525
+    - 37530
     ys:
     - 0
     - -45
@@ -3358,13 +3474,98 @@ voice_parts:
     - -18
     - -18
     - -14
+    - 0
+    - 0
+    - 5
+    - 9
+    - 9
     - -14
-    - -10
-    - -10
+    - -27
+    - -45
+    - -82
+    - -132
+    - -164
+    - 573
+    - 559
+    - 373
+    - 345
     - -23
     - -23
     - -1200
     - -1200
+    - 0
+    - 0
+    - -23
+    - -23
+    - 0
+    - 0
+    - -5
+    - 5
+    - 5
+    - 18
+    - 18
+    - 14
+    - 9
+    - -27
+    - -27
+    - 0
+    - 9
+    - 14
+    - 14
+    - 5
+    - 32
+    - 32
+    - 0
+    - -5
+    - 9
+    - 9
+    - -5
+    - -7
+    - -23
+    - -27
+    - -27
+    - -41
+    - -27
+    - -36
+    - 5
+    - 14
+    - 0
+    - 0
+    - 104
+    - 4
+    - -11
+    - -15
+    - -18
+    - -5
+    - -5
+    - 5
+    - 5
+    - 9
+    - 9
+    - 18
+    - 18
+    - 14
+    - 5
+    - 5
+    - 0
+    - 0
+    - -5
+    - -5
+    - -23
+    - -23
+    - -41
+    - -45
+    - -73
+    - -86
+    - -91
+    - -109
+    - -114
+    - -136
+    - -141
+    - 741
+    - 727
+    - 700
+    - 691
     - 0
     abbr: pitd
 wave_parts: []
