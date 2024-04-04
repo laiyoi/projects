@@ -246,8 +246,8 @@ voice_parts:
   track_no: 0
   position: 0
   notes:
-  - position: 1560
-    duration: 360
+  - position: 1740
+    duration: 180
     tone: 54
     lyric: AP
     pitch:
