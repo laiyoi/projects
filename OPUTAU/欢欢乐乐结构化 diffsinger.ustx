@@ -202,6 +202,24 @@ expressions:
     options:
     - off
     - on
+  norm:
+    name: normalize
+    abbr: norm
+    type: Numerical
+    min: 0
+    max: 100
+    default_value: 86
+    is_flag: true
+    flag: P
+  mod+:
+    name: modulation plus
+    abbr: mod+
+    type: Numerical
+    min: 0
+    max: 100
+    default_value: 0
+    is_flag: false
+    flag: ""
 exp_selectors:
 - dyn
 - pitd
@@ -229,6 +247,7 @@ tracks:
   solo: false
   volume: 6
   pan: 0
+  track_expressions: []
   voice_color_names: []
 - phonemizer: OpenUtau.Core.DefaultPhonemizer
   renderer_settings: {}
@@ -238,10 +257,12 @@ tracks:
   solo: false
   volume: -22.24390243902439
   pan: 0
+  track_expressions: []
   voice_color_names:
   - ""
 voice_parts:
-- name: New Part
+- duration: 82080
+  name: New Part
   comment: ""
   track_no: 0
   position: 0
@@ -1172,13 +1193,25 @@ voice_parts:
     vibrato: {length: 0, period: 175, depth: 25, in: 0, out: 0, shift: 0, drift: 0, vol_link: 0}
     phoneme_expressions: []
     phoneme_overrides: []
+  - position: 18960
+    duration: 240
+    tone: 56
+    lyric: AP
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
   - position: 19200
     duration: 240
     tone: 58
     lyric: liu
     pitch:
       data:
-      - {x: -40, y: 0, shape: io}
+      - {x: -40, y: -20, shape: io}
       - {x: 40, y: 0, shape: io}
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 0, out: 0, shift: 0, drift: 0, vol_link: 0}
@@ -1465,7 +1498,7 @@ voice_parts:
     - {index: 1, abbr: vel, value: 170}
     phoneme_overrides:
     - index: 1
-      offset: -22
+      offset: 11
       overlap_delta: -2.6595745
   - position: 24960
     duration: 240
@@ -1877,16 +1910,40 @@ voice_parts:
     vibrato: {length: 0, period: 175, depth: 25, in: 0, out: 0, shift: 0, drift: 0, vol_link: 0}
     phoneme_expressions: []
     phoneme_overrides: []
+  - position: 34320
+    duration: 240
+    tone: 51
+    lyric: AP
+    pitch:
+      data:
+      - {x: -40, y: 10, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
   - position: 34560
     duration: 480
     tone: 50
     lyric: lu
     pitch:
       data:
-      - {x: -40, y: 0, shape: io}
+      - {x: -40, y: 10, shape: io}
       - {x: 40, y: 0, shape: io}
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 0, out: 0, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 35040
+    duration: 240
+    tone: 49
+    lyric: SP
+    pitch:
+      data:
+      - {x: -40, y: 10, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
     phoneme_expressions: []
     phoneme_overrides: []
   - position: 35280
@@ -1895,7 +1952,7 @@ voice_parts:
     lyric: gang
     pitch:
       data:
-      - {x: -40, y: 0, shape: io}
+      - {x: -40, y: 10, shape: io}
       - {x: 40, y: 0, shape: io}
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 0, out: 0, shift: 0, drift: 0, vol_link: 0}
@@ -2528,7 +2585,7 @@ voice_parts:
     phoneme_expressions: []
     phoneme_overrides:
     - index: 1
-      offset: 121
+      offset: 47
     - index: 0
       offset: 81
       overlap_delta: 7.0921984
