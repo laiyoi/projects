@@ -192,6 +192,24 @@ expressions:
     default_value: 100
     is_flag: false
     flag: ""
+  norm:
+    name: normalize
+    abbr: norm
+    type: Numerical
+    min: 0
+    max: 100
+    default_value: 86
+    is_flag: true
+    flag: P
+  mod+:
+    name: modulation plus
+    abbr: mod+
+    type: Numerical
+    min: 0
+    max: 100
+    default_value: 0
+    is_flag: false
+    flag: ""
 exp_selectors:
 - dyn
 - pitd
@@ -219,6 +237,7 @@ tracks:
   solo: false
   volume: 0
   pan: 0
+  track_expressions: []
   voice_color_names: []
 - phonemizer: OpenUtau.Core.DefaultPhonemizer
   renderer_settings: {}
@@ -228,10 +247,12 @@ tracks:
   solo: false
   volume: 0
   pan: 0
+  track_expressions: []
   voice_color_names:
   - ""
 voice_parts:
-- name: New Part
+- duration: 78240
+  name: New Part
   comment: ""
   track_no: 0
   position: 0
@@ -2226,7 +2247,7 @@ voice_parts:
     lyric: 啊
     pitch:
       data:
-      - {x: -12.376238, y: 20, shape: io}
+      - {x: -76.73267, y: 20, shape: io}
       - {x: -4.9504952, y: 0, shape: io}
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
@@ -3015,33 +3036,7 @@ voice_parts:
     phoneme_expressions: []
     phoneme_overrides: []
   curves:
-  - xs:
-    - 55215
-    - 55220
-    - 55225
-    - 55235
-    - 55260
-    - 55265
-    - 55270
-    - 55275
-    - 55660
-    - 55670
-    - 55675
-    - 55680
-    - 55685
-    ys:
-    - 0
-    - 11
-    - -12
-    - -3
-    - -3
-    - -35
-    - -144
-    - -149
-    - -144
-    - -149
-    - 38
-    - 51
-    - 0
+  - xs: []
+    ys: []
     abbr: pitd
 wave_parts: []
